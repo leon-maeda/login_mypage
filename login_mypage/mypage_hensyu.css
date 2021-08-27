@@ -1,0 +1,94 @@
+header{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+header img{
+    height: 50px;
+}
+
+header p{
+    text-align: center;
+}
+
+main{
+    clear: both;
+}
+
+.main_contain{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+}
+
+.main_contain .prof{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 30px;
+}
+
+.main_contain .prof2{
+    text-align: right;
+    padding: 10px 10px 10px 50px;
+}
+
+.main_contain .submit{
+    margin-bottom: 30px;
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: rgb(39, 209, 152);
+    font-size: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+.main_contain h1{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    border-bottom: solid 2px rgb(141, 233, 182);
+}
+
+.main_contain h2{
+    margin-left: 20px;
+    border-left: 4px red solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.main_contain h3{
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: solid 2px rgb(184, 184, 184);
+}
+
+.main_contain .my_comment{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+footer{
+    clear: both;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
